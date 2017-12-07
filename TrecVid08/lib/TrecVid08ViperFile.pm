@@ -64,7 +64,22 @@ my @ok_events =
    "Embrace", "Pointing", "ElevatorNoEntry", "OpposingFlow", "TakePicture", 
    # Optional events
    "DoorOpenClose", "UseATM", "ObjectGet", "VestAppears", "SitDown", 
-   "StandUp", "ObjectTransfer", 
+   "StandUp", "ObjectTransfer",
+   # DIVA events
+   "Activity", "Closing", "Closing_Trunk", "Drop",
+   "DropOff_Person_Vehicle", "Entering", "Exiting", "Interacts",
+   "Loading", "Misc", "Object_Transfer", "Open_Trunk", "Opening",
+   "Person_Person_Interaction", "PickUp", "PickUp_Person_Vehicle",
+   "Pull", "Push", "Riding", "SetDown", "Talking",
+   "Transport_HeavyCarry", "Unloading", "activity_carrying",
+   "activity_crouching", "activity_gesturing", "activity_running",
+   "activity_sitting", "activity_standing", "activity_walking",
+   "specialized_miscellaneous", "specialized_talking_phone",
+   "specialized_texting_phone", "specialized_throwing",
+   "specialized_umbrella", "specialized_using_tool",
+   "vehicle_construction_function", "vehicle_moving",
+   "vehicle_starting", "vehicle_stopping", "vehicle_turning_left",
+   "vehicle_turning_right", "vehicle_u_turn",
    # Removed events
    ##
   );
