@@ -66,9 +66,9 @@ my @ok_events =
    "DoorOpenClose", "UseATM", "ObjectGet", "VestAppears", "SitDown", 
    "StandUp", "ObjectTransfer",
    # DIVA events
-   "Activity", "Closing", "Closing_Trunk", "Drop",
-   "DropOff_Person_Vehicle", "Entering", "Exiting", "Interacts",
-   "Loading", "Misc", "Object_Transfer", "Open_Trunk", "Opening",
+   "Closing", "Closing_Trunk", "Drop", "DropOff_Person_Vehicle",
+   "Entering", "Exiting", "Interacts", "Loading", "Misc",
+   "Object_Transfer", "Open_Trunk", "Opening",
    "Person_Person_Interaction", "PickUp", "PickUp_Person_Vehicle",
    "Pull", "Push", "Riding", "SetDown", "Talking",
    "Transport_HeavyCarry", "Unloading", "activity_carrying",
